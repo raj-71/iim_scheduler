@@ -228,7 +228,7 @@ const tomorrowSchedule = async () => {
 
 const schedule = async (dateIncoming) => {
     let date = dateIncoming.toLocaleDateString('en-GB', {
-        day: 'numeric', month: 'short', year: '2-digit'
+        day: 'numeric', month: 'short', year: '2-digit', timeZone: 'Asia/Kolkata'
     }).replace(/ /g, '/');
 
     console.log(date);
@@ -245,8 +245,6 @@ const schedule = async (dateIncoming) => {
 
     let text = "";
 
-    console.log(data);
-
     data.map((item, index) => {
         text += `<b>${index+1}. ${item.courseName}</b>${item.section? " - <b>" + item.section + "</b>" : ""} \n
     Time: <b>${item.time}</b>
@@ -254,8 +252,6 @@ const schedule = async (dateIncoming) => {
     Faculty: <b>${item.faculty}</b>
     \n`;
     });
-
-    console.log(text);
 
     return text;
 }
