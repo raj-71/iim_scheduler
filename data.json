@@ -460,9 +460,9 @@
       {
         "courseName": "IMPA",
         "section": "A",
-        "lectureNo": "1",
+        "lectureNo": "2",
         "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-03",
+        "classroom": "CR-02",
         "time": "2:30 PM - 4:00 PM"
       },
       {
@@ -492,9 +492,9 @@
       {
         "courseName": "IMPA",
         "section": "B",
-        "lectureNo": "1",
+        "lectureNo": "2",
         "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-03",
+        "classroom": "CR-02",
         "time": "4:15 PM - 5:45 PM"
       },
       {
@@ -640,7 +640,7 @@
         "section": "",
         "lectureNo": "1",
         "faculty": "Dr Parul Malik ",
-        "classroom": "CR-02",
+        "classroom": "CR-05",
         "time": "12:00 PM - 1:30 PM"
       },
       {
