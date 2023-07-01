@@ -4,6 +4,7 @@ const fs = require("fs");
 const csv = require("csvtojson");
 const jsonData = require("./data.json");
 const TelegramBot = require("node-telegram-bot-api");
+const Calendar = require("telegram-inline-calendar");
 require("dotenv").config();
 
 const csvFile = "./data.csv";
@@ -14,6 +15,11 @@ const app = express();
 const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR2f0bJ4xN1z9QROs1QrC1UxMeEQ09uaw3WSzRWvbxlpLWUXI1Jh8aC42CMUjAcNrgtlFxBBMeIuB4G/pubhtml?gid=1865835579&single=true&urp=gmail_link&gxid=-8203366";
 const port = 5000;
 const token = process.env.TOKEN;
+const bot = new TelegramBot(token, { polling: true });
+const calendar = new Calendar(bot, {
+    date_format: 'MM-DD-YY',
+    langugage: 'en'
+});
 
 
 const courses = [
@@ -188,20 +194,19 @@ const extractedCourses = (schedule) => schedule.filter(scheduleItem => {
     return courses.some(course => course.course === scheduleItem.courseName && course.section === scheduleItem.section);
 });
 
-const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
     const options = {
         reply_markup: {
-            keyboard: [['Today', 'Tomorrow']],
+            keyboard: [['Today', 'Tomorrow', 'Choose Date']],
             one_time_keyboard: true,
         }
     };
     bot.sendMessage(chatId, 'Choose an option:', options);
 });
 
-bot.onText(/Today|Tomorrow/, async (msg, match) => {
+bot.onText(/Today|Tomorrow|Choose Date/, async (msg, match) => {
     const chatId = msg.chat.id;
     const option = match[0];
 
@@ -210,8 +215,23 @@ bot.onText(/Today|Tomorrow/, async (msg, match) => {
         bot.sendMessage(chatId, await todaySchedule(), {parse_mode: 'HTML'});
     } else if (option === 'Tomorrow') {
         bot.sendMessage(chatId, await tomorrowSchedule(), {parse_mode: 'HTML'});
+    } else if (option === 'Choose Date') {
+        
+        calendar.startNavCalendar(msg);
     }
 });
+
+bot.on("callback_query", async (query) => {
+    if(query.message.message_id == calendar.chats.get(query.message.chat.id)) {
+        res = calendar.clickButtonCalendar(query);
+        if(res !== -1){
+            console.log("Selected Date: ", res);
+            let date = new Date(res);
+            let sch = await schedule(date);
+            bot.sendMessage(query.message.chat.id, "Schedule on " + date.toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: '2-digit', timeZone: 'Asia/Kolkata'}).replace(/ /g, '/') + '\n' +sch, {parse_mode: 'HTML'});
+        }
+    }
+})
 
 
 const todaySchedule = async () => {
@@ -227,6 +247,7 @@ const tomorrowSchedule = async () => {
 }
 
 const schedule = async (dateIncoming) => {
+    console.log("date: ", dateIncoming);
     let date = dateIncoming.toLocaleDateString('en-GB', {
         day: 'numeric', month: 'short', year: '2-digit', timeZone: 'Asia/Kolkata'
     }).replace(/ /g, '/');
