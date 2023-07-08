@@ -18,1054 +18,134 @@
     ]
   },
   {
-    "date": "26/Jun/23",
-    "day": "Monday",
-    "schedule": [
-      {
-        "courseName": "EC",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Ram Kumar Dhurkari ",
-        "classroom": "CR-05",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "ESM",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Vikrant Kaushal ",
-        "classroom": "CR-02",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "FSA",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Amrinder Singh ",
-        "classroom": "CR-05",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "PPA",
-        "section": "A",
-        "lectureNo": "1",
-        "faculty": "Dr Debalina Bera ",
-        "classroom": "CR-05",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "CB",
-        "section": "B",
-        "lectureNo": "1",
-        "faculty": "Dr Karthikeyan Balakumar ",
-        "classroom": "CR-02",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "CB",
-        "section": "A",
-        "lectureNo": "1",
-        "faculty": "Dr Karthikeyan Balakumar ",
-        "classroom": "CR-02",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "PPA",
-        "section": "B",
-        "lectureNo": "1",
-        "faculty": "Dr Debalina Bera ",
-        "classroom": "CR-05",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "BF",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-02",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "BFA",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Pradipta Patra ",
-        "classroom": "CR-03",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "SHRM",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Rinki Dahiya ",
-        "classroom": "CR-05",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "BF",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-02",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "GLSCM",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Bhavin Shah ",
-        "classroom": "CR-05",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "QMSS",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Narpat Ram Sangwa ",
-        "classroom": "CR-05",
-        "time": "7:45 PM - 9:15 PM"
-      }
-    ]
-  },
-  {
-    "date": "27/Jun/23",
-    "day": "Tuesday",
-    "schedule": [
-      {
-        "courseName": "AAOM",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Neha Sharma ",
-        "classroom": "CR-02",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "CCW",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Pragya Bhawsar ",
-        "classroom": "CR-05",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "TMOP",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Parul Malik ",
-        "classroom": "CCLab",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "AMR",
-        "section": "A",
-        "lectureNo": "1",
-        "faculty": "Mr Suresh Ramadurai ",
-        "classroom": "CR-02",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SSRPB",
-        "section": "B",
-        "lectureNo": "1",
-        "faculty": "Dr Ashish Goel ",
-        "classroom": "CR-05",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "CBM",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Balachandran R ",
-        "classroom": "CR-05",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "ITST",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Urvashi Rathod ",
-        "classroom": "CR-02",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "TMOP",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Parul Malik ",
-        "classroom": "CCLab",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "CBM",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Balachandran R ",
-        "classroom": "CR-05",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "SSRPB",
-        "section": "A",
-        "lectureNo": "1",
-        "faculty": "Dr Ashish Goel ",
-        "classroom": "CR-05",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "AMR",
-        "section": "B",
-        "lectureNo": "1",
-        "faculty": "Mr Suresh Ramadurai ",
-        "classroom": "CR-02",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "BFA",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Pradipta Patra ",
-        "classroom": "CR-02",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "SHRM",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Rinki Dahiya ",
-        "classroom": "CR-05",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "ESM",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Vikrant Kaushal ",
-        "classroom": "CR-02",
-        "time": "7:45 PM - 9:15 PM"
-      },
-      {
-        "courseName": "FSA",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Amrinder Singh ",
-        "classroom": "CR-05",
-        "time": "7:45 PM - 9:15 PM"
-      }
-    ]
-  },
-  {
-    "date": "28/Jun/23",
-    "day": "Wednesday",
-    "schedule": [
-      {
-        "courseName": "CBM",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Balachandran R ",
-        "classroom": "CR-04",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "IMPA",
-        "section": "A",
-        "lectureNo": "1",
-        "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-02",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "IMPA",
-        "section": "B",
-        "lectureNo": "1",
-        "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-02",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "AMR",
-        "section": "B",
-        "lectureNo": "2",
-        "faculty": "Mr Suresh Ramadurai ",
-        "classroom": "CR-02",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "AMR",
-        "section": "A",
-        "lectureNo": "2",
-        "faculty": "Mr Suresh Ramadurai ",
-        "classroom": "CR-02",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "CBM",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Balachandran R ",
-        "classroom": "CR-04",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "ITST",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Urvashi Rathod ",
-        "classroom": "CR-05",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "BIDM",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Ram Kumar Dhurkari ",
-        "classroom": "CR-04",
-        "time": "7:45 PM - 9:15 PM"
-      }
-    ]
-  },
-  {
-    "date": "29/Jun/23",
-    "day": "Thursday",
-    "schedule": [
-      {
-        "courseName": "PPA",
-        "section": "A",
-        "lectureNo": "2",
-        "faculty": "Dr Debalina Bera ",
-        "classroom": "CR-05",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "AMR",
-        "section": "B",
-        "lectureNo": "3",
-        "faculty": "Mr Suresh Ramadurai ",
-        "classroom": "CR-02",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "PPA",
-        "section": "B",
-        "lectureNo": "2",
-        "faculty": "Dr Debalina Bera ",
-        "classroom": "CR-05",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "",
-        "faculty": "",
-        "classroom": "",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "AMR",
-        "section": "A",
-        "lectureNo": "3",
-        "faculty": "Mr Suresh Ramadurai ",
-        "classroom": "CR-02",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "",
-        "faculty": "",
-        "classroom": "",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "AAOM",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Neha Sharma ",
-        "classroom": "CR-04",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "CCW",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Pragya Bhawsar ",
-        "classroom": "CR-05",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "DAR",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Manish Sarkhel ",
-        "classroom": "CR-05",
-        "time": "7:45 PM - 9:15 PM"
-      }
-    ]
-  },
-  {
-    "date": "30/Jun/23",
-    "day": "Friday",
-    "schedule": [
-      {
-        "courseName": "BIDM",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Ram Kumar Dhurkari ",
-        "classroom": "CR-04",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "D",
-        "lectureNo": "1",
-        "faculty": "Dr Ajay Singal ",
-        "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "E",
-        "lectureNo": "1",
-        "faculty": "Dr Pragya Bhawsar ",
-        "classroom": "CR-05",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "A",
-        "lectureNo": "1",
-        "faculty": "Dr Ashish Goel ",
-        "classroom": "CR-02",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "B",
-        "lectureNo": "1",
-        "faculty": "Dr Ajay Singal ",
-        "classroom": "CR-04",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "C",
-        "lectureNo": "1",
-        "faculty": "Dr Pragya Bhawsar ",
-        "classroom": "CR-05",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "AMOBPR",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Rinki Dahiya ",
-        "classroom": "CCLab",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "IMPA",
-        "section": "A",
-        "lectureNo": "2",
-        "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-02",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "SSRPB",
-        "section": "B",
-        "lectureNo": "2",
-        "faculty": "Dr Ashish Goel ",
-        "classroom": "CR-04",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "AMOBPR",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Rinki Dahiya ",
-        "classroom": "CCLab",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "SSRPB",
-        "section": "A",
-        "lectureNo": "2",
-        "faculty": "Dr Ashish Goel ",
-        "classroom": "CR-04",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "IMPA",
-        "section": "B",
-        "lectureNo": "2",
-        "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-02",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "CB",
-        "section": "A",
-        "lectureNo": "2",
-        "faculty": "Dr Karthikeyan Balakumar ",
-        "classroom": "CR-04",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "AMR",
-        "section": "B",
-        "lectureNo": "4",
-        "faculty": "Mr Suresh Ramadurai ",
-        "classroom": "CR-02",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "AMR",
-        "section": "A",
-        "lectureNo": "4",
-        "faculty": "Mr Suresh Ramadurai ",
-        "classroom": "CR-02",
-        "time": "7:45 PM - 9:15 PM"
-      },
-      {
-        "courseName": "CB",
-        "section": "B",
-        "lectureNo": "2",
-        "faculty": "Dr Karthikeyan Balakumar ",
-        "classroom": "CR-04",
-        "time": "7:45 PM - 9:15 PM"
-      }
-    ]
-  },
-  {
-    "date": "1/Jul/23",
-    "day": "Saturday",
-    "schedule": [
-      {
-        "courseName": "STIC",
-        "section": "A",
-        "lectureNo": "2",
-        "faculty": "Dr Ashish Goel ",
-        "classroom": "CR-02",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "B",
-        "lectureNo": "2",
-        "faculty": "Dr Ajay Singal ",
-        "classroom": "CR-04",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "C",
-        "lectureNo": "2",
-        "faculty": "Dr Pragya Bhawsar ",
-        "classroom": "CR-05",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "D",
-        "lectureNo": "2",
-        "faculty": "Dr Ajay Singal ",
-        "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "E",
-        "lectureNo": "2",
-        "faculty": "Dr Pragya Bhawsar ",
-        "classroom": "CR-05",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "EC",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Ram Kumar Dhurkari ",
-        "classroom": "CR-04",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "GLSCM",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Bhavin Shah ",
-        "classroom": "CR-05",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "PM",
-        "section": "B",
-        "lectureNo": "1",
-        "faculty": "Dr Prafulla Agnihotri ",
-        "classroom": "CR-04",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "SM",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Prafulla Agnihotri ",
-        "classroom": "CR-04",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "DAR",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Manish Sarkhel ",
-        "classroom": "CR-05",
-        "time": "7:45 PM - 9:15 PM"
-      }
-    ]
-  },
-  {
-    "date": "2/Jul/23",
-    "day": "Sunday",
+    "date": "26/Jun/23 Total",
+    "day": "",
     "schedule": [
       {
         "courseName": "",
         "faculty": "",
         "classroom": "",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "QMSS",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Narpat Ram Sangwa ",
-        "classroom": "CR-05",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "TM",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Parul Malik ",
-        "classroom": "CR-05",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "",
-        "faculty": "",
-        "classroom": "",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "",
-        "faculty": "",
-        "classroom": "",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "",
-        "faculty": "",
-        "classroom": "",
-        "time": "6:00 PM - 7:30 PM"
+        "time": "Timings"
       }
     ]
   },
   {
-    "date": "3/Jul/23",
-    "day": "Monday",
+    "date": "27/Jun/23 Total",
+    "day": "",
     "schedule": [
-      {
-        "courseName": "ITST",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Urvashi Rathod ",
-        "classroom": "CR-05",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "ESM",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Vikrant Kaushal ",
-        "classroom": "CR-02",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "FSA",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Amrinder Singh ",
-        "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "CB",
-        "section": "B",
-        "lectureNo": "3",
-        "faculty": "Dr Karthikeyan Balakumar ",
-        "classroom": "CR-04",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "CB",
-        "section": "A",
-        "lectureNo": "3",
-        "faculty": "Dr Karthikeyan Balakumar ",
-        "classroom": "CR-04",
-        "time": "2:30 PM - 4:00 PM"
-      },
       {
         "courseName": "",
         "faculty": "",
         "classroom": "",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "TM",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Parul Malik ",
-        "classroom": "CR-02",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "BFA",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Pradipta Patra ",
-        "classroom": "CR-04",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "SHRM",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Rinki Dahiya ",
-        "classroom": "CR-05",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "EC",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Ram Kumar Dhurkari ",
-        "classroom": "CR-04",
-        "time": "7:45 PM - 9:15 PM"
+        "time": "Timings"
       }
     ]
   },
   {
-    "date": "4/Jul/23",
-    "day": "Tuesday",
+    "date": "28/Jun/23 Total",
+    "day": "",
     "schedule": [
       {
-        "courseName": "STIC",
-        "section": "D",
-        "lectureNo": "3",
-        "faculty": "Dr Ajay Singal ",
-        "classroom": "CR-04",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "E",
-        "lectureNo": "3",
-        "faculty": "Dr Pragya Bhawsar ",
-        "classroom": "CR-05",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "ESM",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Vikrant Kaushal ",
-        "classroom": "CR-02",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "FSA",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Amrinder Singh ",
-        "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SSRPB",
-        "section": "A",
-        "lectureNo": "3",
-        "faculty": "Dr Ashish Goel ",
-        "classroom": "CR-04",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "IMPA",
-        "section": "B",
-        "lectureNo": "3",
-        "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-03",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "IMPA",
-        "section": "A",
-        "lectureNo": "3",
-        "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-03",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "SSRPB",
-        "section": "B",
-        "lectureNo": "3",
-        "faculty": "Dr Ashish Goel ",
-        "classroom": "CR-04",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "BFA",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Pradipta Patra ",
-        "classroom": "CR-04",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "SHRM",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Rinki Dahiya ",
-        "classroom": "CR-05",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "QMSS",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Narpat Ram Sangwa ",
-        "classroom": "CR-05",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "EC",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Ram Kumar Dhurkari ",
-        "classroom": "CR-04",
-        "time": "7:45 PM - 9:15 PM"
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
+        "time": "Timings"
       }
     ]
   },
   {
-    "date": "5/Jul/23",
-    "day": "Wednesday",
+    "date": "29/Jun/23 Total",
+    "day": "",
     "schedule": [
       {
-        "courseName": "TA",
-        "section": "",
-        "lectureNo": "1",
-        "faculty": "Dr Vandana ",
-        "classroom": "CR-03",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "A",
-        "lectureNo": "3",
-        "faculty": "Dr Ashish Goel ",
-        "classroom": "CR-02",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "B",
-        "lectureNo": "3",
-        "faculty": "Dr Ajay Singal ",
-        "classroom": "CR-04",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "STIC",
-        "section": "C",
-        "lectureNo": "3",
-        "faculty": "Dr Pragya Bhawsar ",
-        "classroom": "CR-05",
-        "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "BF",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-03",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "PM",
-        "section": "B",
-        "lectureNo": "3",
-        "faculty": "Dr Prafulla Agnihotri ",
-        "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "BF",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-03",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "SM",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Prafulla Agnihotri ",
-        "classroom": "CR-04",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "PM",
-        "section": "A",
-        "lectureNo": "3",
-        "faculty": "Dr Prafulla Agnihotri ",
-        "classroom": "CR-04",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "PPA",
-        "section": "B",
-        "lectureNo": "3",
-        "faculty": "Dr Debalina Bera ",
-        "classroom": "CR-05",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
-        "courseName": "PPA",
-        "section": "A",
-        "lectureNo": "3",
-        "faculty": "Dr Debalina Bera ",
-        "classroom": "CR-05",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "PM",
-        "section": "C",
-        "lectureNo": "3",
-        "faculty": "Dr Prafulla Agnihotri ",
-        "classroom": "CR-04",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "TM",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Parul Malik ",
-        "classroom": "CR-02",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "ITST",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Urvashi Rathod ",
-        "classroom": "CR-05",
-        "time": "7:45 PM - 9:15 PM"
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
+        "time": "Timings"
       }
     ]
   },
   {
-    "date": "6/Jul/23",
-    "day": "Thursday",
+    "date": "30/Jun/23 Total",
+    "day": "",
     "schedule": [
       {
-        "courseName": "BIDM",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Ram Kumar Dhurkari ",
-        "classroom": "CR-04",
-        "time": "8:30 AM - 10:00 AM"
-      },
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
+        "time": "Timings"
+      }
+    ]
+  },
+  {
+    "date": "1/Jul/23 Total",
+    "day": "",
+    "schedule": [
       {
-        "courseName": "TA",
-        "section": "",
-        "lectureNo": "2",
-        "faculty": "Dr Vandana ",
-        "classroom": "CR-05",
-        "time": "8:30 AM - 10:00 AM"
-      },
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
+        "time": "Timings"
+      }
+    ]
+  },
+  {
+    "date": "2/Jul/23 Total",
+    "day": "",
+    "schedule": [
       {
-        "courseName": "PM",
-        "section": "B",
-        "lectureNo": "4",
-        "faculty": "Dr Prafulla Agnihotri ",
-        "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
+        "time": "Timings"
+      }
+    ]
+  },
+  {
+    "date": "3/Jul/23 Total",
+    "day": "",
+    "schedule": [
       {
-        "courseName": "SM",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Prafulla Agnihotri ",
-        "classroom": "CR-04",
-        "time": "12:00 PM - 1:30 PM"
-      },
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
+        "time": "Timings"
+      }
+    ]
+  },
+  {
+    "date": "4/Jul/23 Total",
+    "day": "",
+    "schedule": [
       {
-        "courseName": "PM",
-        "section": "A",
-        "lectureNo": "4",
-        "faculty": "Dr Prafulla Agnihotri ",
-        "classroom": "CR-04",
-        "time": "2:30 PM - 4:00 PM"
-      },
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
+        "time": "Timings"
+      }
+    ]
+  },
+  {
+    "date": "5/Jul/23 Total",
+    "day": "",
+    "schedule": [
       {
-        "courseName": "PPA",
-        "section": "B",
-        "lectureNo": "4",
-        "faculty": "Dr Debalina Bera ",
-        "classroom": "CR-05",
-        "time": "2:30 PM - 4:00 PM"
-      },
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
+        "time": "Timings"
+      }
+    ]
+  },
+  {
+    "date": "6/Jul/23 Total",
+    "day": "",
+    "schedule": [
       {
-        "courseName": "PPA",
-        "section": "A",
-        "lectureNo": "4",
-        "faculty": "Dr Debalina Bera ",
-        "classroom": "CR-05",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "PM",
-        "section": "C",
-        "lectureNo": "4",
-        "faculty": "Dr Prafulla Agnihotri ",
-        "classroom": "CR-04",
-        "time": "4:15 PM - 5:45 PM"
-      },
-      {
-        "courseName": "AAOM",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Neha Sharma ",
-        "classroom": "CR-04",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "CCW",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Pragya Bhawsar ",
-        "classroom": "CR-05",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "GLSCM",
-        "section": "",
-        "lectureNo": "3",
-        "faculty": "Dr Bhavin Shah ",
-        "classroom": "CR-05",
-        "time": "7:45 PM - 9:15 PM"
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
+        "time": "Timings"
       }
     ]
   },
@@ -1094,7 +174,7 @@
         "section": "A",
         "lectureNo": "4",
         "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-03",
+        "classroom": "CR-02",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -1126,7 +206,7 @@
         "section": "B",
         "lectureNo": "4",
         "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-03",
+        "classroom": "CR-02",
         "time": "12:00 PM - 1:30 PM"
       },
       {
@@ -1220,7 +300,7 @@
         "section": "A",
         "lectureNo": "4",
         "faculty": "Dr Ashish Goel ",
-        "classroom": "CR-02",
+        "classroom": "CR-08",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -1240,27 +320,27 @@
         "time": "10:15 AM - 11:45 AM"
       },
       {
-        "courseName": "GLSCM",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Bhavin Shah ",
-        "classroom": "CR-05",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
-        "courseName": "TM",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Parul Malik ",
-        "classroom": "CR-02",
-        "time": "2:30 PM - 4:00 PM"
-      },
-      {
         "courseName": "DAR",
         "section": "",
         "lectureNo": "4",
         "faculty": "Dr Manish Sarkhel ",
         "classroom": "CR-05",
+        "time": "12:00 PM - 1:30 PM"
+      },
+      {
+        "courseName": "IAB",
+        "section": "Meeting",
+        "lectureNo": "for",
+        "faculty": "MBA-TM ",
+        "classroom": "",
+        "time": "2:30 PM - 4:00 PM"
+      },
+      {
+        "courseName": "IAB",
+        "section": "Meeting",
+        "lectureNo": "for",
+        "faculty": "MBA-TM ",
+        "classroom": "",
         "time": "4:15 PM - 5:45 PM"
       },
       {
@@ -1334,15 +414,19 @@
         "time": "12:00 PM - 1:30 PM"
       },
       {
-        "courseName": "",
-        "faculty": "",
-        "classroom": "",
+        "courseName": "GLSCM",
+        "section": "",
+        "lectureNo": "4",
+        "faculty": "Dr Bhavin Shah ",
+        "classroom": "CR-05",
         "time": "2:30 PM - 4:00 PM"
       },
       {
-        "courseName": "",
-        "faculty": "",
-        "classroom": "",
+        "courseName": "TM",
+        "section": "",
+        "lectureNo": "4",
+        "faculty": "Dr Parul Malik ",
+        "classroom": "CR-05",
         "time": "4:15 PM - 5:45 PM"
       },
       {
@@ -1387,14 +471,6 @@
         "lectureNo": "5",
         "faculty": "Dr Amrinder Singh ",
         "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "4",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -1586,6 +662,14 @@
         "time": "8:30 AM - 10:00 AM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "1",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "10:15 AM - 11:45 AM"
+      },
+      {
         "courseName": "PM",
         "section": "B",
         "lectureNo": "5",
@@ -1608,6 +692,14 @@
         "faculty": "Dr Prafulla Agnihotri ",
         "classroom": "CR-04",
         "time": "12:00 PM - 1:30 PM"
+      },
+      {
+        "courseName": "BF",
+        "section": "",
+        "lectureNo": "6",
+        "faculty": "Dr Kirti Saxena ",
+        "classroom": "CR-03",
+        "time": "2:30 PM - 4:00 PM"
       },
       {
         "courseName": "PM",
@@ -1712,20 +804,20 @@
         "time": "10:15 AM - 11:45 AM"
       },
       {
-        "courseName": "BF",
-        "section": "",
-        "lectureNo": "6",
-        "faculty": "Dr Kirti Saxena ",
-        "classroom": "CR-03",
-        "time": "12:00 PM - 1:30 PM"
-      },
-      {
         "courseName": "SM",
         "section": "",
         "lectureNo": "6",
         "faculty": "Dr Prafulla Agnihotri ",
         "classroom": "CR-04",
         "time": "12:00 PM - 1:30 PM"
+      },
+      {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "2",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "2:30 PM - 4:00 PM"
       },
       {
         "courseName": "PPA",
@@ -1948,6 +1040,14 @@
         "time": "8:30 AM - 10:00 AM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "3",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "10:15 AM - 11:45 AM"
+      },
+      {
         "courseName": "TA",
         "section": "",
         "lectureNo": "5",
@@ -2123,14 +1223,6 @@
         "lectureNo": "7",
         "faculty": "Dr Amrinder Singh ",
         "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "5",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -2330,6 +1422,14 @@
         "time": "8:30 AM - 10:00 AM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "4",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "10:15 AM - 11:45 AM"
+      },
+      {
         "courseName": "PM",
         "section": "B",
         "lectureNo": "7",
@@ -2432,6 +1532,14 @@
         "time": "8:30 AM - 10:00 AM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "5",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "10:15 AM - 11:45 AM"
+      },
+      {
         "courseName": "PM",
         "section": "B",
         "lectureNo": "8",
@@ -2515,6 +1623,14 @@
         "lectureNo": "7",
         "faculty": "Dr Ram Kumar Dhurkari ",
         "classroom": "CR-04",
+        "time": "8:30 AM - 10:00 AM"
+      },
+      {
+        "courseName": "TA",
+        "section": "",
+        "lectureNo": "7",
+        "faculty": "Dr Vandana ",
+        "classroom": "CR-05",
         "time": "8:30 AM - 10:00 AM"
       },
       {
@@ -2654,7 +1770,7 @@
       {
         "courseName": "TA",
         "section": "",
-        "lectureNo": "7",
+        "lectureNo": "8",
         "faculty": "Dr Vandana ",
         "classroom": "CR-03",
         "time": "10:15 AM - 11:45 AM"
@@ -2802,6 +1918,14 @@
         "time": "4:15 PM - 5:45 PM"
       },
       {
+        "courseName": "TA",
+        "section": "",
+        "lectureNo": "9",
+        "faculty": "Dr Vandana ",
+        "classroom": "CR-05",
+        "time": "4:15 PM - 5:45 PM"
+      },
+      {
         "courseName": "TM",
         "section": "",
         "lectureNo": "8",
@@ -2845,14 +1969,6 @@
         "lectureNo": "9",
         "faculty": "Dr Amrinder Singh ",
         "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "6",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -3044,6 +2160,14 @@
         "time": "8:30 AM - 10:00 AM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "6",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "10:15 AM - 11:45 AM"
+      },
+      {
         "courseName": "PM",
         "section": "B",
         "lectureNo": "9",
@@ -3140,10 +2264,18 @@
       {
         "courseName": "TA",
         "section": "",
-        "lectureNo": "8",
+        "lectureNo": "10",
         "faculty": "Dr Vandana ",
         "classroom": "CR-05",
         "time": "8:30 AM - 10:00 AM"
+      },
+      {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "7",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "10:15 AM - 11:45 AM"
       },
       {
         "courseName": "PM",
@@ -3242,7 +2374,7 @@
       {
         "courseName": "TA",
         "section": "",
-        "lectureNo": "9",
+        "lectureNo": "11",
         "faculty": "Dr Vandana ",
         "classroom": "CR-03",
         "time": "10:15 AM - 11:45 AM"
@@ -3384,7 +2516,7 @@
       {
         "courseName": "TA",
         "section": "",
-        "lectureNo": "10",
+        "lectureNo": "12",
         "faculty": "Dr Vandana ",
         "classroom": "CR-03",
         "time": "8:30 AM - 10:00 AM"
@@ -3524,14 +2656,6 @@
         "time": "10:15 AM - 11:45 AM"
       },
       {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "7",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
         "courseName": "QMSS",
         "section": "",
         "lectureNo": "8",
@@ -3574,9 +2698,9 @@
       {
         "courseName": "TA",
         "section": "",
-        "lectureNo": "11",
+        "lectureNo": "13",
         "faculty": "Dr Vandana ",
-        "classroom": "CR-03",
+        "classroom": "CR-05",
         "time": "7:45 PM - 9:15 PM"
       }
     ]
@@ -3666,14 +2790,6 @@
         "time": "4:15 PM - 5:45 PM"
       },
       {
-        "courseName": "BFA",
-        "section": "",
-        "lectureNo": "12",
-        "faculty": "Dr Pradipta Patra ",
-        "classroom": "CR-04",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
         "courseName": "SHRM",
         "section": "",
         "lectureNo": "12",
@@ -3726,6 +2842,14 @@
         "faculty": "Dr Prafulla Agnihotri ",
         "classroom": "CR-04",
         "time": "12:00 PM - 1:30 PM"
+      },
+      {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "8",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "2:30 PM - 4:00 PM"
       },
       {
         "courseName": "PPA",
@@ -3812,14 +2936,6 @@
         "faculty": "Dr Mohita Sharma ",
         "classroom": "CR-05",
         "time": "8:30 AM - 10:00 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "8",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
-        "time": "10:15 AM - 11:45 AM"
       },
       {
         "courseName": "TM",
@@ -3972,6 +3088,14 @@
         "time": "12:00 PM - 1:30 PM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "9",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "2:30 PM - 4:00 PM"
+      },
+      {
         "courseName": "TM",
         "section": "",
         "lectureNo": "12",
@@ -3998,9 +3122,9 @@
       {
         "courseName": "TA",
         "section": "",
-        "lectureNo": "12",
+        "lectureNo": "14",
         "faculty": "Dr Vandana ",
-        "classroom": "CR-03",
+        "classroom": "CR-05",
         "time": "6:00 PM - 7:30 PM"
       },
       {
@@ -4024,6 +3148,14 @@
         "faculty": "Dr Narpat Ram Sangwa ",
         "classroom": "CR-05",
         "time": "8:30 AM - 10:00 AM"
+      },
+      {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "10",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "10:15 AM - 11:45 AM"
       },
       {
         "courseName": "PPA",
@@ -4136,9 +3268,11 @@
         "time": "12:00 PM - 1:30 PM"
       },
       {
-        "courseName": "",
-        "faculty": "",
-        "classroom": "",
+        "courseName": "BFA",
+        "section": "",
+        "lectureNo": "12",
+        "faculty": "Dr Pradipta Patra ",
+        "classroom": "CR-04",
         "time": "2:30 PM - 4:00 PM"
       },
       {
@@ -4181,14 +3315,6 @@
         "lectureNo": "13",
         "faculty": "Dr Amrinder Singh ",
         "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "9",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -4276,12 +3402,12 @@
         "time": "10:15 AM - 11:45 AM"
       },
       {
-        "courseName": "SAF",
+        "courseName": "FE",
         "section": "",
-        "lectureNo": "10",
-        "faculty": "Dr Sanjay Pareek ",
+        "lectureNo": "11",
+        "faculty": "Dr Sanjiv Kumar ",
         "classroom": "CCLab",
-        "time": "12:00 PM - 1:30 PM"
+        "time": "10:15 AM - 11:45 AM"
       },
       {
         "courseName": "SM",
@@ -4368,19 +3494,19 @@
         "time": "8:30 AM - 10:00 AM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "12",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "10:15 AM - 11:45 AM"
+      },
+      {
         "courseName": "GLSCM",
         "section": "",
         "lectureNo": "12",
         "faculty": "Dr Bhavin Shah ",
         "classroom": "CR-05",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "11",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -4548,6 +3674,14 @@
         "time": "2:30 PM - 4:00 PM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "13",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "2:30 PM - 4:00 PM"
+      },
+      {
         "courseName": "ProjectM",
         "section": "",
         "lectureNo": "4",
@@ -4652,9 +3786,9 @@
       {
         "courseName": "TA",
         "section": "",
-        "lectureNo": "13",
+        "lectureNo": "15",
         "faculty": "Dr Vandana ",
-        "classroom": "CR-03",
+        "classroom": "CR-05",
         "time": "6:00 PM - 7:30 PM"
       },
       {
@@ -4688,9 +3822,9 @@
       {
         "courseName": "TA",
         "section": "",
-        "lectureNo": "14",
+        "lectureNo": "16",
         "faculty": "Dr Vandana ",
-        "classroom": "CR-03",
+        "classroom": "CR-05",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -4745,14 +3879,6 @@
         "lectureNo": "15",
         "faculty": "Dr Amrinder Singh ",
         "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "12",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -4928,19 +4054,19 @@
         "time": "8:30 AM - 10:00 AM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "14",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "10:15 AM - 11:45 AM"
+      },
+      {
         "courseName": "QMSS",
         "section": "",
         "lectureNo": "15",
         "faculty": "Dr Narpat Ram Sangwa ",
         "classroom": "CR-05",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "13",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -5014,19 +4140,19 @@
         "time": "8:30 AM - 10:00 AM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "15",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "10:15 AM - 11:45 AM"
+      },
+      {
         "courseName": "GLSCM",
         "section": "",
         "lectureNo": "14",
         "faculty": "Dr Bhavin Shah ",
         "classroom": "CR-05",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "14",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -5298,14 +4424,6 @@
         "time": "6:00 PM - 7:30 PM"
       },
       {
-        "courseName": "TA",
-        "section": "",
-        "lectureNo": "15",
-        "faculty": "Dr Vandana ",
-        "classroom": "CR-03",
-        "time": "6:00 PM - 7:30 PM"
-      },
-      {
         "courseName": "BCE",
         "section": "",
         "lectureNo": "14",
@@ -5336,9 +4454,9 @@
       {
         "courseName": "TA",
         "section": "",
-        "lectureNo": "16",
+        "lectureNo": "17",
         "faculty": "Dr Vandana ",
-        "classroom": "CR-03",
+        "classroom": "CR-05",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -5405,14 +4523,6 @@
         "lectureNo": "17",
         "faculty": "Dr Amrinder Singh ",
         "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "15",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -5556,14 +4666,6 @@
         "faculty": "Dr Amrinder Singh ",
         "classroom": "CR-04",
         "time": "6:00 PM - 7:30 PM"
-      },
-      {
-        "courseName": "TA",
-        "section": "",
-        "lectureNo": "17",
-        "faculty": "Dr Vandana ",
-        "classroom": "CR-03",
-        "time": "7:45 PM - 9:15 PM"
       }
     ]
   },
@@ -5588,10 +4690,10 @@
         "time": "10:15 AM - 11:45 AM"
       },
       {
-        "courseName": "SAF",
+        "courseName": "FE",
         "section": "",
         "lectureNo": "16",
-        "faculty": "Dr Sanjay Pareek ",
+        "faculty": "Dr Sanjiv Kumar ",
         "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
@@ -5690,10 +4792,10 @@
         "time": "8:30 AM - 10:00 AM"
       },
       {
-        "courseName": "SAF",
+        "courseName": "FE",
         "section": "",
         "lectureNo": "17",
-        "faculty": "Dr Sanjay Pareek ",
+        "faculty": "Dr Sanjiv Kumar ",
         "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
@@ -5950,6 +5052,14 @@
         "time": "12:00 PM - 1:30 PM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "18",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "12:00 PM - 1:30 PM"
+      },
+      {
         "courseName": "GLSCM",
         "section": "",
         "lectureNo": "17",
@@ -6089,14 +5199,6 @@
         "lectureNo": "19",
         "faculty": "Dr Amrinder Singh ",
         "classroom": "CR-04",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "18",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -6252,7 +5354,7 @@
         "section": "",
         "lectureNo": "18",
         "faculty": "Dr Vandana ",
-        "classroom": "CR-03",
+        "classroom": "CR-05",
         "time": "7:45 PM - 9:15 PM"
       }
     ]
@@ -6278,10 +5380,10 @@
         "time": "8:30 AM - 10:00 AM"
       },
       {
-        "courseName": "SAF",
+        "courseName": "FE",
         "section": "",
         "lectureNo": "19",
-        "faculty": "Dr Sanjay Pareek ",
+        "faculty": "Dr Sanjiv Kumar ",
         "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
@@ -6380,19 +5482,19 @@
         "time": "8:30 AM - 10:00 AM"
       },
       {
+        "courseName": "FE",
+        "section": "",
+        "lectureNo": "20",
+        "faculty": "Dr Sanjiv Kumar ",
+        "classroom": "CCLab",
+        "time": "10:15 AM - 11:45 AM"
+      },
+      {
         "courseName": "QMSS",
         "section": "",
         "lectureNo": "19",
         "faculty": "Dr Narpat Ram Sangwa ",
         "classroom": "CR-05",
-        "time": "10:15 AM - 11:45 AM"
-      },
-      {
-        "courseName": "SAF",
-        "section": "",
-        "lectureNo": "20",
-        "faculty": "Dr Sanjay Pareek ",
-        "classroom": "CCLab",
         "time": "10:15 AM - 11:45 AM"
       },
       {
@@ -6508,7 +5610,7 @@
         "section": "",
         "lectureNo": "19",
         "faculty": "Dr Vandana ",
-        "classroom": "CR-03",
+        "classroom": "CR-05",
         "time": "12:00 PM - 1:30 PM"
       },
       {
@@ -6646,7 +5748,7 @@
         "section": "",
         "lectureNo": "20",
         "faculty": "Dr Vandana ",
-        "classroom": "CR-03",
+        "classroom": "CR-05",
         "time": "6:00 PM - 7:30 PM"
       },
       {
@@ -6655,6 +5757,24 @@
         "lectureNo": "20",
         "faculty": "Dr Kaustubh Dhargalkar ",
         "classroom": "CR-04",
+        "time": "7:45 PM - 9:15 PM"
+      },
+      {
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
+        "time": "7:45 PM - 9:15 PM"
+      },
+      {
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
+        "time": "7:45 PM - 9:15 PM"
+      },
+      {
+        "courseName": "",
+        "faculty": "",
+        "classroom": "",
         "time": "7:45 PM - 9:15 PM"
       }
     ]
