@@ -635,3 +635,15 @@ const generateCalendarLink = (eventDetails, date) => {
     const link = google(event);
     return `<a href="${link}">Add to Calendar</a>\n`;
 }
+
+
+
+/////////////////////////////////////////////
+// For deployment http server
+/////////////////////////////////////////////
+
+const {createServer} = require('http')
+
+const server = createServer(() => {})
+
+server.listen(3000)
