@@ -1,10 +1,9 @@
 const axios = require('axios');
 const fs = require('fs');
 const { JSDOM } = require('jsdom');
-const jsonData = require('./data.json');
 
 const jsonFile = './data.json';
-const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR2f0bJ4xN1z9QROs1QrC1UxMeEQ09uaw3WSzRWvbxlpLWUXI1Jh8aC42CMUjAcNrgtlFxBBMeIuB4G/pubhtml?gid=1865835579&single=true&urp=gmail_link&gxid=-8203366";
+const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSH1XutdXSkI8AX9i6GdIqhMG1fRWIwKwhLROx4AIvqnKjp8brHlzh9-cmjUo5awlanh_f4_EzCXd-w/pubhtml?gid=1865835579&single=true&urp=gmail_link&gxid=-8203366";
 
 
 

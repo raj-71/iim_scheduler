@@ -1,4 +1,3 @@
-const jsonData = require("./data.json");
 const TelegramBot = require("node-telegram-bot-api");
 const Calendar = require("telegram-inline-calendar");
 const mongoose = require("mongoose");
@@ -6,8 +5,8 @@ const User = require("./models/user");
 const { google } = require("calendar-link");
 require("dotenv").config();
 
-const jsonFile = "./data.json";
-
+const jsonData = require("./data.json");
+const coursesList = require('./coursesLists.json');
 
 // connect to mongodb
 mongoose.connect(process.env.MONGO_URI, {
@@ -20,82 +19,81 @@ mongoose.connect(process.env.MONGO_URI, {
 });
 
 
-
-const token = process.env.TOKEN;
+const token = process.env.TOKEN_PROD;
 const bot = new TelegramBot(token, { polling: true });
 const calendar = new Calendar(bot, {
     date_format: 'MM-DD-YY',
     langugage: 'en'
 });
 
-function getUniqueCourseNames(data) {
-    const courseMap = new Map();
+// function getUniqueCourseNames(data) {
+//     const courseMap = new Map();
 
-    data.forEach((item) => {
-        item.schedule.forEach((scheduleItem) => {
-            const { courseName, section } = scheduleItem;
+//     data.forEach((item) => {
+//         item.schedule.forEach((scheduleItem) => {
+//             const { courseName, section } = scheduleItem;
 
-            if (!courseMap.has(courseName)) {
-                courseMap.set(courseName, new Set());
-            }
+//             if (!courseMap.has(courseName)) {
+//                 courseMap.set(courseName, new Set());
+//             }
 
-            if (section) {
-                courseMap.get(courseName).add(section);
-            }
-        });
-    });
+//             if (section) {
+//                 courseMap.get(courseName).add(section);
+//             }
+//         });
+//     });
 
-    const uniqueCourseNames = [];
+//     const uniqueCourseNames = [];
 
-    courseMap.forEach((sections, courseName) => {
-        const course = {
-            courseName,
-            sections: Array.from(sections)
-        };
+//     courseMap.forEach((sections, courseName) => {
+//         const course = {
+//             courseName,
+//             sections: Array.from(sections)
+//         };
 
-        uniqueCourseNames.push(course);
-    });
+//         uniqueCourseNames.push(course);
+//     });
 
-    return uniqueCourseNames;
-}
+//     return uniqueCourseNames;
+// }
 
-
+// console.log(getUniqueCourseNames(jsonData));
 
 
 
 
 ///////////////////////////  FUNCTIONS  ///////////////////////////
 
-const courses = [
-    {
-        course: "STIC",
-        section: "B"
-    },
-    {
-        course: "PPA",
-        section: "A"
-    },
-    {
-        course: "BIDM",
-        section: ""
-    },
-    {
-        course: "GLSCM",
-        section: ""
-    },
-    {
-        course: "QMSS",
-        section: ""
-    },
-    {
-        course: "PM",
-        section: "B"
-    },
-    {
-        course: "DAR",
-        section: ""
-    }
-];
+// const courses = [
+//     {
+//         course: "STIC",
+//         section: "B"
+//     },
+//     {
+//         course: "PPA",
+//         section: "A"
+//     },
+//     {
+//         course: "BIDM",
+//         section: ""
+//     },
+//     {
+//         course: "GLSCM",
+//         section: ""
+//     },
+//     {
+//         course: "QMSS",
+//         section: ""
+//     },
+//     {
+//         course: "PM",
+//         section: "B"
+//     },
+//     {
+//         course: "DAR",
+//         section: ""
+//     }
+// ];
 
 
 const extractedCourses = (schedule, userCourses) => {
@@ -192,9 +190,102 @@ bot.on("callback_query", async (query) => {
     }
 });
 
+// bot.on("callback_query", async (query) => {
+//     const data = query.data;
+//     let userCourseSelections = {};
+
+//     // Handle calendar callbacks
+//     if (query.message.message_id == calendar.chats.get(query.message.chat.id)) {
+//         res = calendar.clickButtonCalendar(query);
+//         if (res !== -1) {
+//             let date = new Date(res);
+//             let sch = await schedule(query.from.id, date);
+//             if (sch.length == 0)
+//                 bot.sendMessage(query.message.chat.id, "Yayyyyy! No class on " + date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: '2-digit', timeZone: 'Asia/Kolkata' }).replace(/ /g, '/') + ' 🥳🥳🥳');
+//             else
+//                 bot.sendMessage(query.message.chat.id, "Schedule on " + date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: '2-digit', timeZone: 'Asia/Kolkata' }).replace(/ /g, '/') + '\n\n' + sch, { parse_mode: 'HTML', disable_web_page_preview: true });
+//         }
+//     } 
+//     // Handle course selection
+//     else if (data.startsWith("courseSelect_course_")) {
+//         const selectedCourseName = data.split("_")[2];
+
+//         if (!userCourseSelections[query.from.id]) {
+//             userCourseSelections[query.from.id] = [];
+//         }
+
+//         if (userCourseSelections[query.from.id].includes(selectedCourseName)) {
+//             // User deselected a course
+//             userCourseSelections[query.from.id] = userCourseSelections[query.from.id].filter(courseName => courseName !== selectedCourseName);
+//         } else {
+//             userCourseSelections[query.from.id].push(selectedCourseName);
+//         }
+
+//         bot.answerCallbackQuery(query.id);
+//     } 
+//     // Handle section selection
+//     else if (data.startsWith("courseSelect_section_")) {
+//         const [, , courseName, section] = data.split("_");
+//         bot.sendMessage(query.message.chat.id, `You selected ${courseName} section ${section}.`);
+//         delete userCourseSelections[query.from.id];
+//     } 
+//     // Handle course submission
+//     else if (data === "courseSelect_submit_courses") {
+//         if (userCourseSelections[query.from.id] && userCourseSelections[query.from.id].length > 0) {
+//             // Find courses with non-empty sections
+//             const coursesWithSections = courses.filter(course => 
+//                 userCourseSelections[query.from.id].includes(course.courseName) && course.sections.length > 0
+//             );
+
+//             // If there are courses with sections
+//             if (coursesWithSections.length > 0) {
+//                 const sectionsKeyboard = coursesWithSections.map(course => course.sections.map(section => ({
+//                     text: `${course.courseName} - ${section}`,
+//                     callback_data: `courseSelect_section_${course.courseName}_${section}`
+//                 })));
+
+//                 bot.sendMessage(query.message.chat.id, "Please select one section:", {
+//                     reply_markup: {
+//                         inline_keyboard: sectionsKeyboard
+//                     }
+//                 });
+//             } else {
+//                 bot.sendMessage(query.message.chat.id, `You selected: ${userCourseSelections[query.from.id].join(', ')}`);
+//                 delete userCourseSelections[query.from.id];
+//             }
+//         } else {
+//             bot.sendMessage(query.message.chat.id, `You haven't selected any courses.`);
+//         }
+//     }
+// });
+
+
+
+
 bot.onText(/\/add_course/, async (msg) => {
 
     const chatId = msg.chat.id;
+    
+    // const keyboard = coursesList.map(course => [{
+    //     text: course.courseName,
+    //     callback_data: `courseSelect_course_${course.courseName}`
+    // }]);
+
+    // // Add a submit button
+    // keyboard.push([{ text: "Submit", callback_data: "courseSelect_submit_courses" }]);
+
+    // bot.sendMessage(chatId, "Please select your courses and then hit submit:", {
+    //     reply_markup: {
+    //         inline_keyboard: keyboard
+    //     }
+    // });
+
+    const courseNames = coursesList.map(course => course.courseName).sort();
+
+// Format the course names into a list message
+    const message = "<b>All Courses List:</b>\n" + courseNames.map(name => `${name}`).join('\n');
+
+    bot.sendMessage(chatId, message, { parse_mode: 'HTML' });
 
     bot.sendMessage(chatId, "Enter course name: ", { parse_mode: 'HTML' })
         .then(async () => {
@@ -403,7 +494,6 @@ const schedule = async (userId, dateIncoming) => {
 }
 
 const findCourse = (courseName, section = "") => {
-    const coursesList = require('./coursesLists.json');
 
     if (!section) {
         const course = coursesList.find(course => course.courseName === courseName);
@@ -464,12 +554,12 @@ const generateCalendarLink = (eventDetails, date) => {
 
 
 
-/////////////////////////////////////////////
-// For deployment http server
-/////////////////////////////////////////////
+// /////////////////////////////////////////////
+// // For deployment http server
+// /////////////////////////////////////////////
 
-const {createServer} = require('http')
+// const {createServer} = require('http')
 
-const server = createServer(() => {})
+// const server = createServer(() => {})
 
-server.listen(3000)
+// server.listen(3000)
